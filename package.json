@@ -21,7 +21,8 @@
   },
   "scripts": {
     "start": "node main.js",
-    "dev": "nodemon main.js"
+    "dev": "nodemon main.js",
+    "postinstall": "npm install"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
