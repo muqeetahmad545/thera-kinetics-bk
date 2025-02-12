@@ -1,6 +1,5 @@
 import Chat from '../api/v1/chat/models/index.js';
 import Channel from '../api/v1/channel/models/index.js';  
-
 const users = {}; 
 
 const socketHandler = (io) => {
